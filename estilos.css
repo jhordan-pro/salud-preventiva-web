@@ -1,0 +1,79 @@
+/* Contenedor del título */
+#contenedor-titulo { 
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#titulo {
+    font-size: 28px;
+    background-color: rgb(76, 115, 205);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: font-size 0.3s ease;
+}
+
+#titulo:hover {
+    font-size: 40px;
+}
+
+/* Cuerpo general */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    background-color: rgb(81, 225, 32);
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Secciones generales */
+.seccion {
+    margin: 20px auto;
+    max-width: 900px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 16px;
+}
+
+/* Títulos secundarios */
+.seccion h2 {
+    color: rgb(76, 115, 205);
+    margin-bottom: 10px;
+}
+
+/* Lista con estrellas */
+ul.estrella {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul.estrella li::before {
+    content: "⭐ ";
+    margin-right: 0.5em;
+}
+
+/* Lista de niveles */
+ul.escala {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul.escala li {
+    margin-bottom: 6px;
+}
+
+/* Imagen */
+#contenedor-imagen {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#contenedor-imagen img {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
